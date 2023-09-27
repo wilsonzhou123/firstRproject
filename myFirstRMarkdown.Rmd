@@ -1,0 +1,16 @@
+---
+title: "MyFirstRMarkdown"
+output: html_document
+date: "2023-09-27"
+---
+
+```{r}
+animals <- c("Snake","Ostrich","Cat","Spider")
+num_legs <- c(0,2,4,8)
+animals_df <- data.frame(animals,num_legs)
+```
+
+```{r}
+animals_df
+```
+

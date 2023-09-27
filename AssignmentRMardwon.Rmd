@@ -1,0 +1,31 @@
+---
+title: "AssignmentRMarkdown"
+output: html_document
+date: "2023-09-27"
+---
+
+```
+
+## Wave plot
+
+```{r}
+x <- seq(from=0,to=20,by=0.01)
+y <- sin(seq(from=0,to=20,by=0.01))
+sin_df <- data.frame(x,y)
+head(sin_df,3)
+
+
+plot(x,y)
+```
+
+
+
+```
+
+$sin^2(x) + cos^2(x) = 1$
+
+
+
+
+
+
